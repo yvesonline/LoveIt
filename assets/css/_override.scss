@@ -6,3 +6,36 @@
 .author {
   font-size: .875rem !important;
 }
+
+.single.page .single-title {
+  margin: 1.4rem 0 0.8rem 0 !important;
+}
+
+.single.page .single-subtitle {
+  margin: 1.4rem 0 0.4rem 0 !important;
+}
+
+.single-subtitle {
+  text-decoration: underline !important;
+}
+
+.single.page .post-meta {
+  margin: 1.4rem 0 1.4rem 0 !important;
+}
+
+$global-link-color: #182240 !important;
+$global-link-hover-color: #384C73 !important;
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif !important;
+}
+
+.header-wrapper a, .header-wrapper a::before, .header-wrapper a::after, .header-wrapper a:hover, .header-wrapper a:link, .header-wrapper a:active {
+  color: black !important;
+}
+
+.header-title a {
+  font-weight: 300;
+}
+
+$header-title-font-family: 'Playfair Display', serif !important;
